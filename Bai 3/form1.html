@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+</head>
+<body>
+    <h1>Student Registeration Form</h1>
+    <hr>
+    <form action>
+        <label for="firstName">Firstname</label><br>
+        <input type="text" name="ten-dau" id="firstName" placeholder="Firstname"><br><br>
+        <label for="middleName">Middlename:</label><br>
+        <input type="text" name="ten-dem" id="middleName" placeholder="Middlename"><br><br>
+        <label for="firstName">Lastname</label><br>
+        <input type="text" name="ten-cuoi" id="lastName" placeholder="Lastname"><br><br>
+        <label for="course">Course:</label>
+        <select name="khoa-hoc" id="course">
+            <option value="Course">Course</option>
+        </select><br><br>
+        <div>
+            Gender:
+            <br>
+            <input type="radio" name="gioiTinh" value="nam" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gioiTinh" value="nu" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gioiTinh" value="khac" id="other">
+            <label for="other">Other</label>
+        </div>
+        <br>
+        <label for="phoneNum">Phone:</label><br>
+        <input type="text" name="so-dien-thoai" value="+91"><br><br>
+        <input type="text" name="so-dien-thoai" id="phoneNum" placeholder="phone no."><br><br>
+        <label for="address">Current Address:</label><br>
+        <textarea name="dia-chi" id="address" cols="100" rows="10"></textarea>
+        <br><br>
+        <label for="email"><b>Email</b></label><br>
+        <input type="email" name="e-mail" id="email" placeholder="Enter Email"><br><br>
+        <label for="pass"><b>Password</b></label><br>
+        <input type="password" name="mat-khau" id="pass"><br><br>
+        <label for="retype"><b>Re-type Password</b></label><br>
+        <input type="text" name="nhap-lai" id="retype"><br><br>
+        <button>Register</button>
+    </form>
+
+</body>
+</html>

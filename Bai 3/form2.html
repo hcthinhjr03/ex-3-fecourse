@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <style>
+        table, tr, td, th {
+          border: 1px solid #ddd;
+        }
+    
+        td, th {
+          padding: 10px;
+        }
+    </style>
+    <h1>Đăng ký Thành viên</h1>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="name">Họ tên:</label>
+                </td>
+                <td>
+                    <input type="text" name="ho-ten" id="name" placeholder="Vui lòng nhập Họ tên">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Mật khẩu:</label>
+                </td>
+                <td>
+                    <input type="password" name="mat-khau" id="password" placeholder="Vui lòng nhập Mật khẩu">
+                </td>
+            </tr>
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <input type="radio" name="gioiTinh" value="nam" id="male">
+                    <label for="male">Nam</label>
+                    <input type="radio" name="gioiTinh" value="nu" id="female">
+                    <label for="female">Nữ</label>
+                    <input type="radio" name="gioiTinh" value="khac" id="other">
+                    <label for="other">Không công bố</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Sở thích:</td>
+                <td>
+                    <input type="checkbox" name="soThich" value="phim" id="movie">
+                    <label for="movie">Xem phim</label><br>
+                    <input type="checkbox" name="soThich" value="sach" id="book">
+                    <label for="book">Đọc sách</label><br>
+                    <input type="checkbox" name="soThich" value="nhac" id="music">
+                    <label for="music">Nghe nhạc</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="old">Tuổi:</label>
+                </td>
+                <td>
+                    <input type="number" name="tuoi" value="15" id="old" min="0" max="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="key">Từ khoá tìm kiếm:</label>
+                </td>
+                <td>
+                    <input type="text" name="tu-khoa" value="tu khoa" id="key">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="description">Giới thiệu bản thân:</label>
+                </td>
+                <td>
+                    <textarea name="gioi-thieu" id="description" cols="100" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email có thể liên hệ:</label>
+                </td>
+                <td>
+                    <input type="email" name="e-mail" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="web">Địa chỉ web của bạn:</label>
+                </td>
+                <td>
+                    <input type="text" name="dia-chi-web" id="web">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Số điện thoại:</label>
+                </td>
+                <td>
+                    <input type="text" name="so-dien-thoai" id="phone">
+                </td>
+            </tr>
+            <tr>
+                <td>Các loại chọn Thời gian</td>
+                <td>
+                    <b>Ngày tháng</b><br><br>
+                    <label for="date">Chọn ngày:</label>
+                    <input type="date" name="ngay" id="date"><br>
+                    <label for="month">Chọn tháng</label>
+                    <input type="month" name="thang" id="month"><br>
+                    <label for="week">Chọn tuần:</label>
+                    <input type="week" name="tuan" id="week"><br><br>
+                    <b>Giờ</b><br><br>
+                    <label for="time">Chọn Giờ:</label>
+                    <input type="time" name="gio" id="time"><br>
+                    <label for="datetime">Chọn cả Ngày + Giờ:</label>
+                    <input type="datetime-local" name="ngay-gio" id="datetime">
+                </td>
+            </tr>
+            <tr>
+                <td>Màu yêu thích:</td>
+                <td>
+                    <input type="color" name="mau-sac" id="color">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Bạn đang sinh sống ở TP/Tỉnh nào?</label>
+                </td>
+                <td>
+                    <input type="text" name="dia-chi" id="address">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
